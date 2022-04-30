@@ -4,6 +4,7 @@
 @import "scss/config/styles-root"; // estilos generales del proyecto (colores, tamaños de fuente, tipos de fuente)
 
 // Layout
+@import "scss/layout/sections";
 @import "scss/layout/containers";
 @import "scss/layout/grid"; // siempre van dentro de un container
 @import "scss/layout/flex"; // siempre van dentro de un container

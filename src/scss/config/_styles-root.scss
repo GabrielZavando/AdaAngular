@@ -39,7 +39,6 @@ $colors:(
 
 $fondo-transparente: rgba(9, 10, 7, 0.8);
 
-
 // Imagenes
 
 // Funcion para obtener imagenes
@@ -54,6 +53,14 @@ $fondo-transparente: rgba(9, 10, 7, 0.8);
 //   background-image: img('ejemplo.jpg');
 // }
 
+// Bordes
+
+$borde-col: 1px solid rgb(255, 255, 255);
+
+// Margenes
+
+$margen-section-top: 1rem;
+$margen-section-bottom: 1rem;
 
 
 
@@ -64,6 +71,7 @@ body{
   font-family: $fuente-parrafos;
   font-size: $global-font-size;
   color: color(text);
+  background-image: img('fondoweb.jpg');
 }
 
 // Fuente para los formularios
