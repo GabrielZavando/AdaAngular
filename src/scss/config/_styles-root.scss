@@ -62,6 +62,11 @@ $borde-col: 1px solid rgb(255, 255, 255);
 $margen-section-top: 1rem;
 $margen-section-bottom: 1rem;
 
+// Gap
+
+$gap-card: 1rem;
+$gap-col: .5rem;
+
 
 
 // Estilos globales
@@ -72,6 +77,7 @@ body{
   font-size: $global-font-size;
   color: color(text);
   background-image: img('fondoweb.jpg');
+  line-height: 27px;
 }
 
 // Fuente para los formularios
